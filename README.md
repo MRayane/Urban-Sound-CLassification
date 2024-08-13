@@ -1,3 +1,3 @@
 # Urban-Sound-CLassification
 
-[Read]([URL](https://readme.so/))
+[Read](https://readme.so/)
