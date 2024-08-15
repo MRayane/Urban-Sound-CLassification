@@ -6,17 +6,16 @@ This project demonstrates a deep learning solution for classifying urban sounds 
 ## Dataset Description
 The UrbanSound8K dataset contains 8732 labeled sound excerpts (<=4s) of urban sounds from 10 classes:
 
-1. Air Conditioner  
-2. Car Horn  
-3. Children Playing  
-4. Dog Bark  
-5. Drilling  
-6. Engine Idling  
-7. Gun Shot  
-8. Jackhammer  
-9. Siren
-10. Street Music
-  
+
+<h3>Sound Class Distribution</h3>
+
+<p>Below is a plot showing the distribution of samples for each sound class:</p>
+
+<p align="center">
+  <img src="images/BarChart-Class-Proportions.png" alt="Sound Class Distribution" style="max-width: 70%; height: auto;">
+</p>
+
+
 Each audio file is provided as a WAV file with different sample rates and durations. The dataset is organized into 10 folds, allowing for cross-validation.
 
 ## Downloading the Dataset
