@@ -63,10 +63,20 @@ pip install -r requirements.txt
 ```  
 Alternatively, you can create a virtual environment and install the dependencies:  
 ```sh 
-python -m venv env    
+python -m venv env
 source env/bin/activate  # On Windows, use env\Scripts\activate   
 pip install -r requirements.txt  
 ``` 
+
+## Model File
+
+The trained model is saved in the `model` folder. You can use this model for inference or further fine-tuning. The model file is named `model.h5` (or whatever the actual name is). To load the model, use the following code snippet:
+
+```python
+from tensorflow.keras.models import load_model
+
+model = load_model('model/model.h5')
+```
 
 ## Usage 
 
