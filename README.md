@@ -29,16 +29,22 @@ Since the dataset is not provided directly in this repository, you can download 
   
 Once the ZIP file is downloaded, extract it into your working directory.  
 For example, if you're running the notebook on Kaggle, the dataset will be automatically available in the following directory:  
-`/kaggle/input/urbansound8k/`  
+```sh
+/kaggle/input/urbansound8k/  
+```
 This is the path used throughout the notebook.  
   
 **2.Path Configuration:**    
   
 If you are working locally or in another environment (like Google Colab), ensure that the extracted files are accessible in the specified directory. You might need to adjust the file paths in the notebook if your setup differs. In the provided notebook, in the provided notebook, different data paths are used for various files:  
 - For the CSV file containing metadata:  
-`/kaggle/input/urbansound8k/UrbanSound8K.csv`
+```sh
+/kaggle/input/urbansound8k/UrbanSound8K.csv
+```
 - For audio files within specific folds:  
-`/kaggle/input/urbansound8k/fold1/101415-3-0-2.wav`  
+```sh
+/kaggle/input/urbansound8k/fold1/101415-3-0-2.wav  
+```
 Make sure this path is correct for your environment, or change the path configuration in the notebook as needed.
 ## Installation and Requirements
 To run the notebook on your local machine, you will need to install the following dependencies:  
@@ -52,11 +58,15 @@ To run the notebook on your local machine, you will need to install the followin
 - Scikit-learn
   
 You can install the required packages using the following commands:  
-`pip install -r requirements.txt`  
+```sh
+pip install -r requirements.txt
+```  
 Alternatively, you can create a virtual environment and install the dependencies:  
-`python -m venv env`  
-`source env/bin/activate  # On Windows, use env\Scripts\activate`  
-`pip install -r requirements.txt`  
+```sh 
+python -m venv env    
+source env/bin/activate  # On Windows, use env\Scripts\activate   
+pip install -r requirements.txt  
+``` 
 
 ## Usage 
 
@@ -67,4 +77,12 @@ Alternatively, you can create a virtual environment and install the dependencies
 **3.Model Evaluation:** The performance of the model is evaluated using metrics such as accuracy, precision, recall, and F1-score. The notebook also includes visualizations of the results.  
   
 **4.Inference:** You can use the trained model to classify new audio files by running the inference section of the notebook.
+
+## Authors
+
+Rayane Mehires - rayanemehires@gmail.com
+
+Project Link: [GitHub - Urban Sound Classification](https://github.com/MRayane/Urban-Sound-Classification/tree/main).
+
+## Thank you
   
