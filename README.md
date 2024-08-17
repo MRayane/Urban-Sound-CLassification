@@ -70,7 +70,7 @@ pip install -r requirements.txt
 
 ## Model File
 
-The trained model is saved in the `Models` folder. You can use this model for inference or further fine-tuning. The model file is named `Sound_classification_model.h5` (or whatever the actual name is). To load the model, use the following code snippet:
+The trained model is saved in the `Model` folder. You can use this model for inference or further fine-tuning. The model file is named `Sound_classification_model.h5` (or whatever the actual name is). To load the model, use the following code snippet:
 
 ```python
 from tensorflow.keras.models import load_model
